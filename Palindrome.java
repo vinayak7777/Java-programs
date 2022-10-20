@@ -9,7 +9,7 @@ public class Palindrome {
 		int l=s1.length();
 		for(int i=0;i<=l/2;i++)
 		{
-			if(s1.charAt(i)!=s1.charAt(l-i-1))
+			if(s1.charAt(i)!=s1.charAt(l-1-i))
 			{
 				res=false;
 				break;
